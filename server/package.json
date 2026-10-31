@@ -1,0 +1,16 @@
+{
+  "name": "supplier-risk-agentic-server",
+  "version": "1.0.0",
+  "description": "AI-Powered Supplier Risk Assessment & Decision Support Platform - Backend Agentic Engine",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node tests/security-and-agents.test.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}
